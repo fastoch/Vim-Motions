@@ -15,21 +15,22 @@ which helps avoid conflicts with built-in shortcuts on those sites.
 
 ## Forget about Arrow keys
 
-- H is for moving left
-- J is for moving down
-- K is for moving up
-- L is for moving right
+- The **"h"** is for moving **left**
+- The **"j"** is for moving **down**
+- The **"k"** key is for moving **up**
+- The **"l"** key is for moving **right** (lower case L)
 
 >[!tip]
->You should keep both hands on the keyboard in a position where your index fingers are touching the small guides on J and F.
+>You should keep both hands on the keyboard in a position where your **index fingers** are touching the **small guides on J and F**.
 
 ## Basics
 
-- Vim starts in NORMAL mode.
-- To enter **INSERT** mode and start editing, you need to press the **i** key.
+- Vim starts in **NORMAL** mode.
+- To enter **INSERT** mode and start editing, you need to press the **"i"** key.
 - To get out of insert mode and back to normal, you must press **Esc**.
-- Pressing **A** is another way to drop into **insert** mode but going in the direction of the writing
-- 
+- Pressing **"a"** is another way to drop into **insert** mode but moves your cursor one character to the right
+- The **"I"** key enters insert mode and moves your cursor at the beginning of the line
+- The **"A"** key enters insert mode and moves your cursor at the end of the line
 
 
 4/22
