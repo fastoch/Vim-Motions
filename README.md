@@ -23,6 +23,13 @@ which helps avoid conflicts with built-in shortcuts on those sites.
 >[!tip]
 >You should keep both hands on the keyboard in a position where your index fingers are touching the small guides on J and F.
 
+## Basics
+
+- Vim starts in NORMAL mode.
+- To enter **INSERT** mode and start editing, you need to press the **i** key.
+- To get out of insert mode and back to normal, you must press **Esc**.
+- Pressing **A** is another way to drop into **insert** mode but going in the direction of the writing
+- 
 
 
-2/22
+4/22
