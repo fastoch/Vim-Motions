@@ -11,3 +11,4 @@ There's even a tool for browsing the web with only a keyboard using Vim-style ke
 
 For Firefox with heavy YouTube and GitHub use, **Vimium C** is usually the better fit because of its per-site mappings and more advanced config, 
 which helps avoid conflicts with built-in shortcuts on those sites.
+
