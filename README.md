@@ -10,8 +10,8 @@ There's even a tool for browsing the web with only a keyboard using Vim-style ke
 
 ## Personal Note
 
-For Firefox with heavy YouTube and GitHub use, **Vimium C** is usually the better fit because of its per-site mappings and more advanced config, 
-which helps avoid conflicts with built-in shortcuts on those sites.
+For Firefox with heavy YouTube and GitHub use, **Vimium C** is usually the better fit because of its per-site mappings 
+and more advanced config, which helps avoid conflicts with built-in shortcuts on those sites.
 
 # Forget about Arrow keys
 
@@ -32,10 +32,27 @@ which helps avoid conflicts with built-in shortcuts on those sites.
 - The **I** key enters insert mode and moves your cursor at the beginning of the line
 - The **A** key enters insert mode and moves your cursor at the end of the line
 - The **w** key moves your cursor to the next word
-- 
+- The **b** key moves your cursor to the previous word (backward)
+- The **e** key moves your cursor to the end of the current word
+- The **$** key moves your cursor to the end of the line
+- The **0** key moves your cursor to the beginning of the line
+- The **^** key moves your cursor to the first (non-whitespace) character of the line 
 
 # Advanced Motions
 
+- The **f** key activates the "**find character**" mode
+  - after pressing the **f** key, type the character you want to move to
+  - if you want to move to the next occurrence of the character, press the **;** key
+  - if you want to move to the previous occurrence of the character, press the **,** key
+  - `4fs` moves to the 4th occurrence of the `s` character in the current line
+  - Vim can find a character, but can also find whitespace characters
+- `3w` moves the cursor 3 words forward 
+- `3b` moves the cursor 3 words backward
+- To fix **indentation** (to the best of Vim's understanding), hit **=** twice
+- To move to the top of a document, press `gg`
+- To move to the last line of a document, press `G`
+- To move to the middle of the visible screen, press `M`
+- To delete a word, press `dw`
+- To delete a line, press `dd`
 
-
-5/22
+10/22
